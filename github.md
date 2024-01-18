@@ -1,7 +1,9 @@
-git init si pas dépot
-git clone
-git add .
-git commit -m "MESSAGE"
+## Si pas dépot
+- git init
+## 
+- git clone
+- git add .
+- git commit -m "MESSAGE"
 
 # Poussez les modification vers le dépôt distant (GitHub)
 git push origin main
