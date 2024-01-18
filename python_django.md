@@ -23,6 +23,9 @@
 ## Appliquez les migration Django
 - python manage.py migrate
 
+# Ajouter un nouveau Projet application
+- python manage.py startapp listings
+
 # Lancer serveur
 ## Lancez le serveur de développement
 - python manage.py runserver
