@@ -6,13 +6,13 @@
 - git commit -m "MESSAGE"
 
 ## Poussez les modification vers le dépôt distant (GitHub)
--git push origin main
+- git push origin main
 
 ## Récupérez les dernières modifications du dépot distant
--git pull origin main
+- git pull origin main
 
 ## Vérifier dans quelle branche et autre info
--git status
+- git status
 
 ## Changer de branche 
--git checkout main
+- git checkout main
