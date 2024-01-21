@@ -1,4 +1,4 @@
-# **D'abord**
+# D'abord
 ## Créez un environnement virtuel
 - python -m venv venv
 
