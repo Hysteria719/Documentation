@@ -1,4 +1,4 @@
-<font color="blue"># D'abord</font>
+# **D'abord**
 ## Créez un environnement virtuel
 - python -m venv venv
 
