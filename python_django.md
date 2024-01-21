@@ -16,8 +16,8 @@
 ## Ajouter les dépendance dans le fichier requirement
 - pip freeze > requirements.txt
 
-## Installez merchex si besoin vérifie si le dossier merchex existe
-- django-admin startproject merchex
+## Créer un nouveau Projet
+- django-admin startproject NomProjet
 
 
 # Si projet existe déjà
