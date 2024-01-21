@@ -16,9 +16,11 @@
 ## Ajouter les dépendance dans le fichier requirement
 - pip freeze > requirements.txt
 
-## Créer un nouveau Projet
+## Créer un nouveau Projet (le squelette du projet )
 - django-admin startproject NomProjet
 
+## Créer une nouvelle application (Utilisé à l'intérieur d'un projet)
+- python manage.py startapp NomApp
 
 # Si projet existe déjà
 ## Installez dépendances Django si le projet existe déjà (dans venv)
@@ -35,8 +37,8 @@
 - python manage.py migrate
 
 
-# Ajouter un nouveau Projet application
-- python manage.py startapp listings
+# Créer une nouvelle application
+- python manage.py startapp NomApp
 
 
 # Lancer serveur
