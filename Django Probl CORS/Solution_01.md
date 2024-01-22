@@ -1,6 +1,6 @@
-#
+    #
 from django.http import JsonResponse
-#
+    #
 def get_csrf_token(request):
     # Votre logique pour récupérer le jeton CSRF
     csrf_token = 'votre_token_csrf'
