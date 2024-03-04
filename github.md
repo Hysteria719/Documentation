@@ -13,6 +13,7 @@
 
 ## Vérifier dans quelle branche et autre info
 - git status
+- git branch
 
 ## Changer de branche 
 - git checkout main
