@@ -16,3 +16,8 @@
 
 ## Changer de branche 
 - git checkout main
+
+## Problème 
+        git config --global credential.helper store
+        git credential approve
+        git push https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
