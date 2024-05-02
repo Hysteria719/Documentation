@@ -1,5 +1,5 @@
 ## pour chaque partie il faut importer ici j'ai mis Utilisateur, voir models.py
-   >>> from NomApp.models import Utilisateur
+    >>> from NomApp.models import Utilisateur
 
 ## Créer un utilisateur avec un password hashé    
     >>> user = Utilisateur.objects.create_user("fab", "fab@aa.com", "Azertyuiop$1qsdf")
