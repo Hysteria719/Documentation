@@ -1,9 +1,9 @@
 ## pour chaque partie il faut importer ici j'ai mis Utilisateur, voir models.py
-    from NomApp.models import Utilisateur
+   >>> from NomApp.models import Utilisateur
 
 ## Créer un utilisateur avec un password hashé    
-    user = Utilisateur.objects.create_user("fab", "fab@aa.com", "Azertyuiop$1qsdf")
-    user.save()
+    >>> user = Utilisateur.objects.create_user("fab", "fab@aa.com", "Azertyuiop$1qsdf")
+    >>> user.save()
 
 ## Modifier le mot de passe utilisateur et qu'il sois hashé    
     >>> u = User.objects.get(username="john")
