@@ -5,7 +5,7 @@
     >>> user = Utilisateur.objects.create_user("fab", "fab@aa.com", "Azertyuiop$1qsdf")
     >>> user.save()
 
-## Modifier le mot de passe utilisateur et qu'il sois hashé    
+## Modifier le mot de passe utilisateur et qu'il soit hashé    
     >>> u = User.objects.get(username="john")
     >>> u.set_password("new password")
     >>> u.save()    
