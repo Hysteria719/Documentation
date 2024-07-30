@@ -21,6 +21,10 @@
 ## Changer d'utilisateur en local
         git config --local user.name "VotreNomUtilisateur"
         git config --local user.email "votre@email.com"
+        
+        git config --local credential.helper store
+        git push https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
+
 
 ## push avec token
         git remote set-url origin https://USERNAME:TOKEN@github.com/Hysteria719/Documentation.git
