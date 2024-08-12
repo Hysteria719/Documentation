@@ -1,0 +1,1 @@
+from .employe import HistoriqueAppareilSerializer

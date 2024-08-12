@@ -1,0 +1,3 @@
+from .dashboards.employe import HistoriqueAppareilSerializer
+from .reservation import ReservationEmployeSerializer
+from .reservation import ReservationDepartementSerializer
